@@ -148,6 +148,28 @@ body {
     height: 20%;
 }
 
+footer {
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.footer-links a:hover {
+    color: grey;
+}
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;

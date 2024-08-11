@@ -7,7 +7,6 @@ body {
     color: white;
 }
 
-/* Navbar Styles */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -38,7 +37,7 @@ body {
 
 .navbar .logo img {
     flex: 1;
-    height: 60px;
+    height: 80px;
     margin-bottom: 1rem;
 }
 

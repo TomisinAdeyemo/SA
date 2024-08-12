@@ -84,7 +84,7 @@ img {
 #loader img {
     width: 100px; 
     height: 100px;
-    animation: rotate 2s linear infinite; /* Rotating animation */
+    animation: rotate 2s linear infinite; 
 }
 
 @keyframes rotate {
@@ -200,6 +200,30 @@ footer {
 
     .image-container img, .image-container2 img {
         max-width: 100%;
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .image-container img, 
+    .image-container2 img {
+        flex: 1 1 45%; 
+        max-width: 100%;
+    }
+
+    .logo img {
+        max-width: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .image-container img, 
+    .image-container2 img {
+        flex: 1 1 100%; 
+    }
+
+    .logo img {
+        max-width: 60px; 
     }
 }
 
